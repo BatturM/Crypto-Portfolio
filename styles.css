@@ -1,0 +1,26 @@
+input {
+	margin-top: 1%;
+	margin-bottom: 5%;
+}
+
+.crypto-button {
+	display: none;
+}
+
+.crypto-img {
+	width: 80px;
+}
+
+.crypto-container {
+	margin-top: 1%;
+	display: flex;
+	justify-content: right;
+	align-content: center;
+}
+
+.crypto-img,
+.crypto-name,
+.crypto-price,
+.crypto-change {
+	padding: 20px;
+}
