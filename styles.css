@@ -1,6 +1,6 @@
 input {
 	margin-top: 1%;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 }
 
 .crypto-button {
@@ -14,7 +14,7 @@ input {
 .crypto-container {
 	margin-top: 1%;
 	display: flex;
-	justify-content: right;
+	justify-content: left;
 	align-content: center;
 }
 
@@ -23,4 +23,12 @@ input {
 .crypto-price,
 .crypto-change {
 	padding: 20px;
+}
+
+#crypto-one,
+#crypto-two,
+#crypto-three,
+#crypto-four,
+#crypto-five {
+	display: none;
 }
