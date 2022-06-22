@@ -26,7 +26,6 @@ $(document).ready(function () {
 			apiKey;
 
 		// ajax request to get api data
-
 		$.ajax({
 			url: coinUrl,
 			method: 'GET',
@@ -257,3 +256,5 @@ $(document).ready(function () {
 		});
 	});
 });
+
+setInterval(getData, 5000);
